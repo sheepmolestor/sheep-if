@@ -22,7 +22,7 @@ placeholder [IFID] = "3BB6471D-7297-4CDB-B895-46B9696E0285"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2017"
 placeholder [TITLE] = "Sheepless"
-placeholder [AUTHOR] = "Sheepness 'Midsummer Day'"
+placeholder [AUTHOR] = "Sheepness 'Sheepies vs Bunnies'"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
