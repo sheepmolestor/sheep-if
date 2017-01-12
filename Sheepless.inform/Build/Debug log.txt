@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 432 words long.
+I've now read your source text, which is 716 words long.
 
 
 -----------------------------------------------------
@@ -71,28 +71,90 @@ Phase IX ... Making the model world
 Phase X ... Tables and grammar
 -----------------------------------------------------
 
-Problem PM_UnderstandAsCompoundText issued from inform7/Chapter 36/Traverse for Grammar.w, line 874
-
-In Part 2:
 
 
-  >--> You wrote 'Understand "rabbit with a [character]" as "[character]
-    rabbit"' (source text, line 45): but if 'understand ... as ...' gives the
-    meaning as text then it must describe a single new token, so that
-    'Understand "group four/five/six" as "[department]"' is legal (defining a
-    new token "[department]", or adding to its definition if it already
-    existed) but 'Understand "take [thing]" as "drop [thing]"' is not allowed,
-    and would not make sense, because "drop [thing]" is a combination of two
-    existing tokens - not a single new one.
+-----------------------------------------------------
+Phase XI ... Phrases and rules
+-----------------------------------------------------
 
 
 
 -----------------------------------------------------
-Phase XI ... Compilation now complete
+Phase XII ... Code generation
+-----------------------------------------------------
+
+
+
+==== Phase XII.1 ... Compiling the storage for the model world ====
+
+
+
+==== Phase XII.2 ... Compiling the tables ====
+
+
+
+==== Phase XII.3 ... Compiling the equations ====
+
+
+
+==== Phase XII.4 ... Compiling the named action patterns ====
+
+
+
+==== Phase XII.5 ... Compiling the action routines ====
+
+
+
+==== Phase XII.6 ... Compiling first block of phrases ====
+
+                    (5.a) problem message:
+                    found: UNKNOWN_VNT'removing letter o rabbit from play'
+                    expected: actionProblem PM_UnknownTryAction1 issued from inform7/Chapter 20/Dash.w, line 2623
+
+                      >--> You wrote 'try removing letter O rabbit from play' (source text, line 115),
+                        but 'removing letter O rabbit from play' is not an action I can try. This
+                        looks as if it might be because it contains something of the wrong kind. My
+                        best try involved seeing if 'play' could be an object, which might have
+                        made sense, but it turned out to be nothing.
+
+[0474] gross "try ( s - action )" (UNKNOWN_VNT'removing letter o rabbit from play')
+
+    I was trying to match this phrase:
+
+
+      try (removing letter o rabbit from play - action) 
+
+
+    But I didn't recognise 'removing letter o rabbit from play'.
+
+
+
+==== Phase XII.7 ... Compiling the rulebooks ====
+
+
+
+==== Phase XII.8 ... Compiling scene details ====
+
+
+
+==== Phase XII.9 ... CTNL ====
+
+
+
+==== Phase XII.10 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.11 ... Determining grammar (G2) ====
+
+
+
+-----------------------------------------------------
+Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 4 files written as streams.
-CPU time: 43 centiseconds
+CPU time: 169 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

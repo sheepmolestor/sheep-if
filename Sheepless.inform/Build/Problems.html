@@ -306,11 +306,15 @@
         <!--HEADNOTE-->
         <p style="margin-top:0;">(Each time <b>Go</b> or <b>Replay</b> is clicked, Inform tries to translate the source text into a working story, and updates this report.)</p>
         <!--PROBLEMS BEGIN-->
-        In<b> Part 2</b>:</p>
+          <p class="hang"><b>Problem.</b>  You wrote 'try removing letter O rabbit from play' &nbsp;<a href="source:story.ni#line115"><img border=0 src=inform:/doc_images/Reveal.png></a>, but 'removing letter O rabbit from play' is not an action I can try. This looks as if it might be because it contains something of the wrong kind. My best try involved seeing if 'play' could be an object, which might have made sense, but it turned out to be nothing.</p>
 
-          <p class="hang"><b>Problem.</b>  You wrote 'Understand &quot;rabbit with a [character]&quot; as &quot;[character] rabbit&quot;' &nbsp;<a href="source:story.ni#line45"><img border=0 src=inform:/doc_images/Reveal.png></a>: but if 'understand ... as ...' gives the meaning as text then it must describe a single new token, so that 'Understand &quot;group four/five/six&quot; as &quot;[department]&quot;' is legal (defining a new token &quot;[department]&quot;, or adding to its definition if it already existed) but 'Understand &quot;take [thing]&quot; as &quot;drop [thing]&quot;' is not allowed, and would not make sense, because &quot;drop [thing]&quot; is a combination of two existing tokens - not a single new one.</p>
+        <p class="tightin2"><a href=inform:/doc101.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;<i>See the manual: 7.4 &gt; 7.4. Try and try silently</i></p>
+          <p class="in2">I was trying to match this phrase:</p>
 
-        <p class="tightin2"><a href=inform:/doc265.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;<i>See the manual: 17.1 &gt; 17.1. Understand</i></p>
+          <p class="tightin3"> <a href=inform:/doc101.html><img border=0 src=inform:/doc_images/help.png></a> try (<font color="#800000">removing letter o rabbit from play</font> - <font color="#4040ff">action</font>) <img border=0 src=inform:/doc_images/cross.png></p>
+
+          <p class="in2">But I didn't recognise '<font color="#800000">removing letter o rabbit from play</font>'.</p>
+
         <!--PROBLEMS END-->
         </font></td></tr>
     </table>

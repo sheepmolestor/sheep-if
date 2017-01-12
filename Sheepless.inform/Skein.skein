@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-2">
+<Skein rootNode="node-5">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-104"/>
-  <item nodeId="node-2">
+  <activeNode nodeId="node-103"/>
+  <item nodeId="node-5">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Sheepless&#x000A;An Interactive Fiction by Sheepness "Sheepies vs Bunnies"&#x000A;Release 1 / Serial number 170110 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Sheepless&#x000A;An Interactive Fiction by Sheepness "Sheepies vs Bunnies"&#x000A;Release 1 / Serial number 170112 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">Sheepless&#x000A;An Interactive Fiction by Sheepness "Sheepies vs Bunnies"&#x000A;Release 1 / Serial number 170109 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-3"/>
-      <child nodeId="node-18"/>
-      <child nodeId="node-19"/>
-      <child nodeId="node-30"/>
-      <child nodeId="node-36"/>
-      <child nodeId="node-71"/>
+      <child nodeId="node-6"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-39"/>
+      <child nodeId="node-42"/>
+      <child nodeId="node-74"/>
     </children>
   </item>
-  <item nodeId="node-3">
+  <item nodeId="node-6">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -26,13 +26,13 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-4"/>
-      <child nodeId="node-8"/>
-      <child nodeId="node-23"/>
-      <child nodeId="node-33"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-11"/>
+      <child nodeId="node-21"/>
+      <child nodeId="node-28"/>
     </children>
   </item>
-  <item nodeId="node-4">
+  <item nodeId="node-7">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -40,10 +40,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-5"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-5">
+  <item nodeId="node-8">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -51,42 +51,12 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-6"/>
-    </children>
-  </item>
-  <item nodeId="node-6">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-7"/>
-    </children>
-  </item>
-  <item nodeId="node-7">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-8">
-    <command xml:space="preserve">pick up sheep</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
       <child nodeId="node-9"/>
     </children>
   </item>
   <item nodeId="node-9">
-    <command xml:space="preserve">eat sheep</command>
-    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -96,30 +66,27 @@
     </children>
   </item>
   <item nodeId="node-10">
-    <command xml:space="preserve">punch sheep</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-11"/>
-    </children>
   </item>
   <item nodeId="node-11">
-    <command xml:space="preserve">die</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up sheep</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-12"/>
     </children>
   </item>
   <item nodeId="node-12">
-    <command xml:space="preserve">suicide</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">eat sheep</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -129,8 +96,8 @@
     </children>
   </item>
   <item nodeId="node-13">
-    <command xml:space="preserve">kill</command>
-    <result xml:space="preserve">(the sheep)&#x000A;Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">punch sheep</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -140,8 +107,8 @@
     </children>
   </item>
   <item nodeId="node-14">
-    <command xml:space="preserve">kill myself</command>
-    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">die</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -151,7 +118,7 @@
     </children>
   </item>
   <item nodeId="node-15">
-    <command xml:space="preserve">help</command>
+    <command xml:space="preserve">suicide</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
@@ -162,8 +129,8 @@
     </children>
   </item>
   <item nodeId="node-16">
-    <command xml:space="preserve">showme</command>
-    <result xml:space="preserve">Gazebo - room&#x000A;    yourself - person&#x000A;        sheep&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">kill</command>
+    <result xml:space="preserve">(the sheep)&#x000A;Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -173,161 +140,30 @@
     </children>
   </item>
   <item nodeId="node-17">
-    <command xml:space="preserve">showme sheep</command>
-    <result xml:space="preserve">sheep - thing&#x000A;location: carried by yourself in the Gazebo&#x000A;singular-named, improper-named; unlit, inedible, portable, handled&#x000A;list grouping key: none&#x000A;printed name: "sheep"&#x000A;printed plural name: none&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-23">
-    <command xml:space="preserve">pick up group of rabbits</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">kill myself</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-24"/>
+      <child nodeId="node-18"/>
     </children>
   </item>
-  <item nodeId="node-24">
-    <command xml:space="preserve">drop</command>
-    <result xml:space="preserve">(the group of rabbits)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-25"/>
-    </children>
-  </item>
-  <item nodeId="node-25">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;You can see a group of rabbits here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-26"/>
-    </children>
-  </item>
-  <item nodeId="node-26">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;You can see a group of rabbits here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-27"/>
-    </children>
-  </item>
-  <item nodeId="node-27">
-    <command xml:space="preserve">scream</command>
+  <item nodeId="node-18">
+    <command xml:space="preserve">help</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-28"/>
+      <child nodeId="node-19"/>
     </children>
-  </item>
-  <item nodeId="node-28">
-    <command xml:space="preserve">pick up rabbit</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-29"/>
-    </children>
-  </item>
-  <item nodeId="node-29">
-    <command xml:space="preserve">showme group of rabbits</command>
-    <result xml:space="preserve">group of rabbits - thing&#x000A;location: in the Alley&#x000A;singular-named, improper-named; unlit, inedible, portable, handled&#x000A;list grouping key: none&#x000A;printed name: "group of rabbits"&#x000A;printed plural name: none&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: "A group of rabbits are beating you to death."&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-33">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-34"/>
-    </children>
-  </item>
-  <item nodeId="node-34">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure grants you the power to kill rabbits, saying that it would be hilarious to see what you would do with it. "How the fuck does that work?" you ask. The figure says, "I don't fucking know." The figure then disappears and a room materialises.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-35"/>
-    </children>
-  </item>
-  <item nodeId="node-35">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-41"/>
-    </children>
-  </item>
-  <item nodeId="node-41">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-42"/>
-    </children>
-  </item>
-  <item nodeId="node-42">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-43"/>
-    </children>
-  </item>
-  <item nodeId="node-43">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-18">
-    <command xml:space="preserve">x asdfhgwenkldsv</command>
-    <result xml:space="preserve">You see nothing special about the asdfhgwenkldsv.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-19">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">Gazebo - room&#x000A;    yourself - person&#x000A;        sheep&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -337,19 +173,16 @@
     </children>
   </item>
   <item nodeId="node-20">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">showme sheep</command>
+    <result xml:space="preserve">sheep - thing&#x000A;location: carried by yourself in the Gazebo&#x000A;singular-named, improper-named; unlit, inedible, portable, handled&#x000A;list grouping key: none&#x000A;printed name: "sheep"&#x000A;printed plural name: none&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-21"/>
-    </children>
   </item>
   <item nodeId="node-21">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up group of rabbits</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -359,27 +192,104 @@
     </children>
   </item>
   <item nodeId="node-22">
-    <command xml:space="preserve">x group of rabbits</command>
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">(the group of rabbits)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;You can see a group of rabbits here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;You can see a group of rabbits here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">scream</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">pick up rabbit</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
   </item>
-  <item nodeId="node-30">
-    <command xml:space="preserve">pick up group of rabbits</command>
-    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-27">
+    <command xml:space="preserve">showme group of rabbits</command>
+    <result xml:space="preserve">group of rabbits - thing&#x000A;location: in the Alley&#x000A;singular-named, improper-named; unlit, inedible, portable, handled&#x000A;list grouping key: none&#x000A;printed name: "group of rabbits"&#x000A;printed plural name: none&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: "A group of rabbits are beating you to death."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure grants you the power to kill rabbits, saying that it would be hilarious to see what you would do with it. "How the fuck does that work?" you ask. The figure says, "I don't fucking know." The figure then disappears and a room materialises.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-31"/>
     </children>
   </item>
   <item nodeId="node-31">
-    <command xml:space="preserve">save</command>
-    <result xml:space="preserve">Save failed.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -390,15 +300,45 @@
   </item>
   <item nodeId="node-32">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Been&#x000A;Been&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">x asdfhgwenkldsv</command>
+    <result xml:space="preserve">You see nothing special about the asdfhgwenkldsv.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -408,31 +348,27 @@
     </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure grants you the power to kill rabbits, saying that it would be hilarious to see what you would do with it. "How the fuck does that work?" you ask. The figure says, "I don't fucking know." The figure then delivers a swift left hook to his head and you lose consciousness.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-38"/>
-      <child nodeId="node-44"/>
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x group of rabbits</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-39"/>
-    </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">? ? ?&#x000A;? ? ?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up group of rabbits</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -442,14 +378,25 @@
     </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.&#x000A;&#x000A;? ? ?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">save</command>
+    <result xml:space="preserve">Save failed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Alley&#x000A;A group of rabbits are beating you to death.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-44">
+  <item nodeId="node-42">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -457,12 +404,35 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure grants you the power to kill rabbits, saying that it would be hilarious to see what you would do with it. "How the fuck does that work?" you ask. The figure says, "I don't fucking know." The figure then delivers a swift left hook to his head and you lose consciousness.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-44"/>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
       <child nodeId="node-45"/>
     </children>
   </item>
   <item nodeId="node-45">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">? ? ?&#x000A;? ? ?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -472,19 +442,16 @@
     </children>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;? ? ?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-47"/>
-    </children>
   </item>
   <item nodeId="node-47">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -516,8 +483,8 @@
     </children>
   </item>
   <item nodeId="node-50">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -538,8 +505,8 @@
     </children>
   </item>
   <item nodeId="node-52">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -560,8 +527,8 @@
     </children>
   </item>
   <item nodeId="node-54">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">? ? ?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -742,74 +709,77 @@
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">scream</command>
-    <result xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</commentary>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-72"/>
     </children>
   </item>
   <item nodeId="node-72">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-74">
     <command xml:space="preserve">scream</command>
     <result xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
-    <children>
-      <child nodeId="node-73"/>
-    </children>
-  </item>
-  <item nodeId="node-73">
-    <command xml:space="preserve">scream</command>
-    <result xml:space="preserve">But nobody came.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure then tells you it has granted you the power to kill rabbits, claiming that he did so because it would be hilarious to see how you use it. "So what exactly is this power?" you ask. The figure says, "I don't actually know." The figure then disappears and a room materialises.&#x000A;&#x000A;Ethereal Space&#x000A;There is a rabbit branded by a letter O.&#x000A;&#x000A;There is a rabbit branded by a letter A.&#x000A;&#x000A;You can also see a doughnut here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">But nobody came.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure then tells you it has granted you the power to kill rabbits, claiming that he did so because it would be hilarious to see how you use it. "So what exactly is this power?" you ask. The figure says, "I don't actually know." The figure then disappears and a room materialises.&#x000A;&#x000A;Ethereal Space&#x000A;There is a rabbit branded with the letter O.&#x000A;&#x000A;You can also see a doughnut here.&#x000A;&#x000A;&gt;</commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">NO</temporary>
-    <children>
-      <child nodeId="node-74"/>
-      <child nodeId="node-76"/>
-    </children>
-  </item>
-  <item nodeId="node-74">
-    <command xml:space="preserve">scream</command>
-    <result xml:space="preserve">Shut the fuck up.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-75"/>
     </children>
   </item>
   <item nodeId="node-75">
     <command xml:space="preserve">scream</command>
-    <result xml:space="preserve">Shut the fuck up.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">But nobody came.&#x000A;&#x000A;Ouch.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">pick up doughnut</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
+    <command xml:space="preserve">scream</command>
+    <result xml:space="preserve">But nobody came.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure then tells you it has granted you the power to kill rabbits, claiming that he did so because it would be hilarious to see how you use it. "So what exactly is this power?" you ask. The figure says, "I don't actually know." The figure then disappears and a room materialises.&#x000A;&#x000A;Ethereal Space&#x000A;There is a rabbit branded by a letter O.&#x000A;&#x000A;There is a rabbit branded by a letter A.&#x000A;&#x000A;You can also see a doughnut here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">But nobody came.&#x000A;&#x000A;Something explodes. You have died.&#x000A;&#x000A;? ? ?&#x000A;You are confronted by a mysterious figure. The figure then tells you it has granted you the power to kill rabbits, claiming that he did so because it would be hilarious to see how you use it. "So what exactly is this power?" you ask. The figure says, "I don't actually know." The figure then disappears and a room materialises.&#x000A;&#x000A;Ethereal Space&#x000A;There is a rabbit branded with the letter O.&#x000A;&#x000A;You can also see a doughnut here.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-77"/>
+      <child nodeId="node-79"/>
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">pick up rabbit</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">scream</command>
+    <result xml:space="preserve">Shut the fuck up.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
@@ -819,30 +789,27 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">x rabbit</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">scream</command>
+    <result xml:space="preserve">Shut the fuck up.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-79"/>
-    </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">eat rabbit</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <command xml:space="preserve">pick up doughnut</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-80"/>
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">eat doughnut</command>
-    <result xml:space="preserve">This one's starting to get quite mouldy&#x2026; I'm not sure that's a good idea.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up rabbit</command>
+    <result xml:space="preserve">Who do you mean, the letter O rabbit or the letter A rabbit?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -852,32 +819,30 @@
     </children>
   </item>
   <item nodeId="node-81">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Ethereal Space&#x000A;There is a rabbit branded by a letter O.&#x000A;&#x000A;There is a rabbit branded by a letter A.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">x rabbit</command>
+    <result xml:space="preserve">Who do you mean, the letter O rabbit or the letter A rabbit?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-82"/>
-      <child nodeId="node-93"/>
     </children>
   </item>
   <item nodeId="node-82">
-    <command xml:space="preserve">x rabbit</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">eat rabbit</command>
+    <result xml:space="preserve">Who do you mean, the letter O rabbit or the letter A rabbit?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-83"/>
-      <child nodeId="node-100"/>
     </children>
   </item>
   <item nodeId="node-83">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Ethereal Space&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">eat doughnut</command>
+    <result xml:space="preserve">This one's starting to get quite mouldy&#x2026; I'm not sure that's a good idea.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -887,6 +852,41 @@
     </children>
   </item>
   <item nodeId="node-84">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Ethereal Space&#x000A;There is a rabbit branded by a letter O.&#x000A;&#x000A;There is a rabbit branded by a letter A.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-85"/>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">x rabbit</command>
+    <result xml:space="preserve">Who do you mean, the letter O rabbit or the letter A rabbit?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-86"/>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Ethereal Space&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Ethereal Space&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -894,20 +894,75 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-100">
+  <item nodeId="node-88">
     <command xml:space="preserve">x rabbit with a letter O</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">A cute bunny! There is a letter O branded on its side.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">x rabbit with a O</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">x rabbit with a letter O</command>
+    <result xml:space="preserve">A cute bunny! There is a letter O branded on its side.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">x letter O rabbit</command>
+    <result xml:space="preserve">A cute bunny! There is a letter O branded on its side.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">x letter A rabbit</command>
+    <result xml:space="preserve">A cute bunny! There is a letter A branded on its side.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a doughnut&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-101"/>
     </children>
   </item>
   <item nodeId="node-101">
-    <command xml:space="preserve">x rabbit with a O</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">attack rabbit with doughnut</command>
+    <result xml:space="preserve">Who do you mean, the letter O rabbit or the letter A rabbit?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -917,30 +972,19 @@
     </children>
   </item>
   <item nodeId="node-102">
-    <command xml:space="preserve">x rabbit with a letter O</command>
-    <result xml:space="preserve">Who do you mean, the rabbit or the rabbit?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">attack letter A rabbit with doughnut</command>
+    <result xml:space="preserve">wow&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-103"/>
     </children>
   </item>
   <item nodeId="node-103">
-    <command xml:space="preserve">x letter O rabbit</command>
-    <result xml:space="preserve">A cute bunny! There is a letter O branded on its side.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-104"/>
-    </children>
-  </item>
-  <item nodeId="node-104">
-    <command xml:space="preserve">x letter A rabbit</command>
-    <result xml:space="preserve">A cute bunny! There is a letter A branded on its side.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">attack rabbits with doughnut</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
